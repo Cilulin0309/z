@@ -1,0 +1,97 @@
+.video-back
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+.Student_id
+{
+    position: absolute;
+    text-align:left;
+    top: 40%;
+    left: 45%;
+    z-index: 1;
+}
+.Student_name
+{
+    position: absolute;
+    text-align:left;
+    top: 44%;
+    left: 45%;
+    z-index: 1;
+}
+.Department
+{
+    position: absolute;
+    text-align:left;
+    top: 48%;
+    left: 45%;
+    z-index: 1;
+}
+.Password
+{
+    position: absolute;
+    text-align:left;
+    top: 52%;
+    left: 45%;
+    z-index: 1;
+}
+.Password_check
+{
+    position: absolute;
+    text-align:left;
+    top: 56%;
+    left: 45%;
+    z-index: 1;
+}
+.button
+{
+    position: absolute;
+    text-align:left;
+    top: 60%;
+    left: 45%;
+    z-index: 1;
+}
+.text1
+{
+    position: absolute;
+    text-align:left;
+    top: 40%;
+    left: 39%;
+    z-index: 1;
+}
+.text2
+{
+    position: absolute;
+    text-align:left;
+    top: 44%;
+    left: 39%;
+    z-index: 1;
+}
+.text3
+{
+    position: absolute;
+    text-align:left;
+    top: 48%;
+    left: 39%;
+    z-index: 1;
+}
+.text4
+{
+    position: absolute;
+    text-align:left;
+    top: 52%;
+    left: 39%;
+    z-index: 1;
+}
+.text5
+{
+    position: absolute;
+    text-align:left;
+    top: 56%;
+    left: 39%;
+    z-index: 1;
+}

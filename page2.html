@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>申請頁面</title>
+        <link rel="stylesheet" href="page2.css">
+    </head>
+    <body>
+        <video class="video-back" autoplay loop muted>
+            <source src="video2.mp4"/>
+        </video>
+        <form action="http://20.210.125.205:5055/Store" name="myForm" id="myForm" class="myForm" enctype="multipart/form-data" method="POST">
+            
+            <span class="text1">Student_id</span>
+             <input placeholder="請輸入Student ID" type="text" name="Student_id" id="Student_id" class="Student_id" required />
+
+            <span class="text2">Student_name</span>
+             <input placeholder="請輸入姓名" type="text" name="Student_name" id="Student_name" class="Student_name" required />
+
+            <span class="text3">Department</span>
+             <input placeholder="請輸入請輸入班級" type="text" name="Department" id="Department" class="Department" required />
+
+            <span class="text4">Password</span>
+             <input placeholder="請輸入密碼" type="Password" name="Password" id="Password" class="Password" required />
+
+            <span class="text5">Password_check</span>
+             <input placeholder="請確認密碼" type="Password" name="Password_check" id="Password_check" class="Password_check" required />
+
+            <button class="button">申請帳號</button>
+        </form>
+    </body>
+    <script src="page2.js" defer></script>
+</html>

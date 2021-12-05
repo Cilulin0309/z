@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>登入頁面</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <video class="video-back" autoplay loop muted>
+      <source src="video1.mp4"/>
+    </video>
+    <section id="enter" class="enter" >
+        <form id="ProfileForm" class="myForm" action="#">
+        <h3>請登入帳號</h3>
+        <span class="text1">Student_ID</span>
+        <input class="input1" type="text" placeholder="請輸入Student ID" id="index_Student_id"/>
+
+        <span class="text2">Password</span>
+        <input class="input2" type="password" placeholder="請輸入Password" id="index_Password"/>
+
+        <input class="button1" type="submit" id="submitbtn" value="登入">
+        <Button class="button2" onclick="input_account_password()">申請帳號</Button>
+        </form>
+    </section>
+  </body>
+  <script src="index.js" defer></script>
+</html>

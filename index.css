@@ -1,0 +1,69 @@
+body
+{
+    margin: 0;
+}
+h3
+{
+    position: absolute;
+    text-align:left;
+    top: 40%;
+    left: 45%;
+    z-index: 1;
+}
+.text1
+{
+    position: absolute;
+    text-align:left;
+    top: 45%;
+    left: 45%;
+    z-index: 1;
+}
+.text2
+{
+    position: absolute;
+    text-align:left;
+    top: 51%;
+    left: 45%;
+    z-index: 1;
+}
+.input1
+{
+    position: absolute;
+    text-align:left;
+    top: 47%;
+    left: 45%;
+    z-index: 1;
+}
+.input2
+{
+    position: absolute;
+    text-align:left;
+    top: 53%;
+    left: 45%;
+    z-index: 1;
+}
+.button1
+{
+    position: absolute;
+    text-align:left;
+    top: 57%;
+    left: 45%;
+    z-index: 1;
+}
+.button2
+{
+    position: absolute;
+    text-align:left;
+    top: 57%;
+    left: 50%;
+    z-index: 1;
+}
+.video-back
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
